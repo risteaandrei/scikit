@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-df = pd.read_csv('USA_Housing.csv')
+df = pd.read_csv('housing/USA_Housing.csv')
 X = df[['Avg. Area Income', 'Avg. Area House Age', 'Avg. Area Number of Rooms',
        'Avg. Area Number of Bedrooms', 'Area Population']]
 y = df['Price']

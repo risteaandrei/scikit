@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-customers = pd.read_csv('ecommerce_customers.csv')
+customers = pd.read_csv('ecommerce/ecommerce_customers.csv')
 #print(customers.columns)
 
 x = customers[['Avg. Session Length', 'Time on App', 'Time on Website', 'Length of Membership']]
